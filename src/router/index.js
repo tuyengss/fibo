@@ -7,6 +7,7 @@ import Profile from '@/modules/session/profile';
 import Password from '@/modules/session/password';
 import Sims from '@/modules/sims';
 import Logs from '@/modules/logs';
+import Retries from '@/modules/retries';
 
 Vue.use(Router);
 const router = new Router({
@@ -53,6 +54,14 @@ const router = new Router({
       path: '/logs',
       name: 'Logs',
       component: Logs,
+      meta: {
+        requiresAuth: true
+      }
+    },
+    {
+      path: '/retries',
+      name: 'Retries',
+      component: Retries,
       meta: {
         requiresAuth: true
       }

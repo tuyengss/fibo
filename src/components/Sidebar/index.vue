@@ -24,6 +24,7 @@ export default {
         { path: '/', name: 'Dashboard', icon: 'fa fa-dashboard' },
         { path: '/sims', name: 'Danh sách SIMs', icon: 'fa fa-list-ol' },
         { path: 'logs', name: 'Lịch sử', icon: 'fa fa-history' },
+        { path: 'retries', name: 'Retries', icon: 'fa fa-history' }
       ],
     };
   },

@@ -46,6 +46,7 @@ export default {
       { path: '/', name: 'Dashboard' },
       { path: 'sims', name: 'SIMs' },
       { path: 'logs', name: 'Lịch sử' },
+      { path: 'retries', name: 'Retries' }
     ];
   }
 };
