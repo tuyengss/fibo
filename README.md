@@ -23,6 +23,6 @@ yarn unit
 # run e2e tests
 yarn e2e
 
-# run all tests
+# run all tests code
 yarn test
 ```
